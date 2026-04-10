@@ -1,0 +1,39 @@
+/*Header Utama*/
+h1 {
+    background-color: #6f4e37;
+    color: white;
+    padding: 15px;
+    border: 2px solid #000;
+    display: inline-block; /*Agar Kotak Mengikuti Panjang Teks*/
+    width: 80%;
+}
+
+/*Container untuk setiap menu*/
+.menu {
+    border: 2px solid #6f4e37;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px; /*Membuat  sudut sedikit melengkung*/
+    transition: 0.3s; /*Efek halus saat hover*/
+}
+
+/*Efek Hover*/
+.menu:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+/*Hover pada gambar*/
+img:hover {
+    transform: scale(1.1);
+}
